@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="src" path="src-gen"/>
+	<classpathentry kind="lib" path="libs/ormlite-android-4.41.jar"/>
+	<classpathentry kind="lib" path="libs/ormlite-core-4.41.jar"/>
+	<classpathentry kind="lib" path="libs/sqlcipher.jar"/>
+	<classpathentry kind="lib" path="libs/mirror-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/odata4j-0.7.0-clientbundle.jar"/>
+	<classpathentry kind="lib" path="libs/info.multiplatform.mohito.framework.remote.mml.jar" sourcepath="/info.multiplatform.mohito.framework.remote.mml"/>
+	<classpathentry kind="lib" path="libs/info.multiplatform.mohito.framework.jar"/>
+	<classpathentry kind="lib" path="libs/info.multiplatform.mohito.framework.android.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

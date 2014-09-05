@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<runtime>
+	<library name="lib/linq4j.jar">
+		<export name="*"/>
+		<packages prefixes="net"/>
+	</library>
+</runtime>
+</plugin>

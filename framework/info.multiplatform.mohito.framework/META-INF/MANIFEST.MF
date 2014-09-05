@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MOHITO Framework
+Bundle-SymbolicName: info.multiplatform.mohito.framework;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: FZI Forschungszentrum Informatik
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: info.multiplatform.mohito.framework,
+ info.multiplatform.mohito.framework.exceptions,
+ info.multiplatform.mohito.framework.mql,
+ info.multiplatform.mohito.framework.synchronization,
+ info.multiplatform.mohito.framework.util,
+ net.hydromatic.lambda.functions,
+ net.hydromatic.lambda.streams,
+ net.hydromatic.linq4j,
+ net.hydromatic.linq4j.expressions,
+ net.hydromatic.linq4j.function
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         name="OrmLite for Android (plain Java)"
+         point="info.multiplatform.mohito.generator">
+      <localGenerator
+            transformationClass="info.multiplatform.mohito.generator.storage.local.ormliteandroid.OrmLiteAndroidStorageGenerator">
+         <plainJavaDependency
+               jarFile="res/ormlite-android-4.41.jar">
+         </plainJavaDependency>
+         <plainJavaDependency
+               jarFile="res/ormlite-core-4.41.jar">
+         </plainJavaDependency>
+         <plainJavaDependency
+               jarFile="res/sqlcipher.jar">
+         </plainJavaDependency>
+      </localGenerator>
+   </extension>
+</plugin>

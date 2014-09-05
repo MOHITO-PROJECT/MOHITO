@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MOHTO Framework for the Android environment
+Bundle-SymbolicName: info.multiplatform.mohito.framework.android
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: B2M, FZI Forschungszentrum Informatik
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: com.j256.ormlite.android,
+ com.j256.ormlite.android.apptools,
+ com.j256.ormlite.dao,
+ com.j256.ormlite.db,
+ com.j256.ormlite.field,
+ com.j256.ormlite.field.types,
+ com.j256.ormlite.logger,
+ com.j256.ormlite.misc,
+ com.j256.ormlite.stmt,
+ com.j256.ormlite.stmt.mapped,
+ com.j256.ormlite.stmt.query,
+ com.j256.ormlite.support,
+ com.j256.ormlite.table,
+ info.multiplatform.mohito.framework.android
+Require-Bundle: info.multiplatform.mohito.framework;bundle-version="1.0.0";visibility:=reexport
+Bundle-ClassPath: lib/linq4j.jar,
+ lib/ormlite-android-4.41.jar,
+ lib/ormlite-core-4.41.jar

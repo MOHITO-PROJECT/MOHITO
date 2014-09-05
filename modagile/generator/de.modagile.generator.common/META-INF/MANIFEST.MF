@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Common Source Generator
+Bundle-SymbolicName: de.modagile.generator.common
+Bundle-Version: 0.3.0.qualifier
+Require-Bundle: de.modagile.metamodel.app;bundle-version="0.3.0";visibility:=reexport,
+ org.eclipse.core.runtime;bundle-version="3.9.0";visibility:=reexport,
+ org.eclipse.core.resources;bundle-version="3.8.0";visibility:=reexport,
+ org.eclipse.xtext;bundle-version="2.3.0";visibility:=reexport,
+ org.eclipse.ui,
+ org.eclipse.xtext.ui;bundle-version="2.3.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-BuddyPolicy: registered
+Export-Package: de.modagile.generator.common,
+ de.modagile.generator.common.workflow
+Bundle-Vendor: ModAgile Mobile

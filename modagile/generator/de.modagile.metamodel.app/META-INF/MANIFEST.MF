@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Application MetaModel
+Bundle-SymbolicName: de.modagile.metamodel.app;singleton:=true
+Bundle-Version: 0.3.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: ModAgile Mobile
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: de.modagile.metamodel.app,
+ de.modagile.metamodel.app.domain,
+ de.modagile.metamodel.app.domain.impl,
+ de.modagile.metamodel.app.domain.util,
+ de.modagile.metamodel.app.event,
+ de.modagile.metamodel.app.event.impl,
+ de.modagile.metamodel.app.event.util,
+ de.modagile.metamodel.app.generatorconfig,
+ de.modagile.metamodel.app.generatorconfig.impl,
+ de.modagile.metamodel.app.generatorconfig.util,
+ de.modagile.metamodel.app.impl,
+ de.modagile.metamodel.app.platform,
+ de.modagile.metamodel.app.platform.impl,
+ de.modagile.metamodel.app.platform.util,
+ de.modagile.metamodel.app.ui,
+ de.modagile.metamodel.app.ui.impl,
+ de.modagile.metamodel.app.ui.util,
+ de.modagile.metamodel.app.util
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.emf.ecore;visibility:=reexport
+Bundle-ActivationPolicy: lazy

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         name="OrmLite with local H2 (Eclipse Plug-in)"
+         point="info.multiplatform.mohito.generator">
+      <localGenerator
+            transformationClass="info.multiplatform.mohito.generator.storage.local.ormliteh2.OrmLiteH2StorageGenerator">
+         <eclipseDependency
+               pluginName="info.multiplatform.mohito.framework.desktop">
+         </eclipseDependency>
+      </localGenerator>
+   </extension>
+
+</plugin>

@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+gmf_dashboard/domainGenerationModel=platform\:/resource/de.modagile.metamodel.app/model/modagile.genmodel
+gmf_dashboard/domainModel=platform\:/resource/de.modagile.metamodel.app/model/modagile.ecore
+gmf_dashboard/generationModel=platform\:/resource/de.modagile.metamodel.app/model/gmfmodels/compositedisplay/compositetyperepository.gmfgen
+gmf_dashboard/graphicalDefinitionModel=platform\:/resource/de.modagile.metamodel.app/model/gmfmodels/compositedisplay/compositetyperepository.gmfgraph
+gmf_dashboard/mappingModel=platform\:/resource/de.modagile.metamodel.app/model/gmfmodels/compositedisplay/compositetyperepository.gmfmap
+gmf_dashboard/toolingDefinitionModel=platform\:/resource/de.modagile.metamodel.app/model/gmfmodels/compositedisplay/compositetyperepository.gmftool

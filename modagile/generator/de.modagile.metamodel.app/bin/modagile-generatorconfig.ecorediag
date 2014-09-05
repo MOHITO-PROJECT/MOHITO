@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_xO-ZQI-3EeKON7G2J8RXRQ" type="EcoreTools" name="modagile.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_xRNN4I-3EeKON7G2J8RXRQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_xRNN44-3EeKON7G2J8RXRQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_xRNN5I-3EeKON7G2J8RXRQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_xRNN7I-3EeKON7G2J8RXRQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//generatorconfig/GeneratorConfig/projectName"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNN7Y-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRNN7o-3EeKON7G2J8RXRQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//generatorconfig/GeneratorConfig/namespace"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNN74-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRNN8I-3EeKON7G2J8RXRQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//generatorconfig/GeneratorConfig/projectPath"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNN8Y-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRNN8o-3EeKON7G2J8RXRQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//generatorconfig/GeneratorConfig/targetPlatform"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNN84-3EeKON7G2J8RXRQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xRNN5Y-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xRNN5o-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xRNN54-3EeKON7G2J8RXRQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xRNN6I-3EeKON7G2J8RXRQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xRNN6Y-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xRNN6o-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xRNN64-3EeKON7G2J8RXRQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_xRNN4Y-3EeKON7G2J8RXRQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="10011046" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//generatorconfig/GeneratorConfig"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xRNN4o-3EeKON7G2J8RXRQ" x="395" y="165"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_xRNN9I-3EeKON7G2J8RXRQ" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_xRNN94-3EeKON7G2J8RXRQ" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_xRNN-I-3EeKON7G2J8RXRQ" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_xRNN_I-3EeKON7G2J8RXRQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//generatorconfig/PlatformType/Android"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNN_Y-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRNN_o-3EeKON7G2J8RXRQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//generatorconfig/PlatformType/iOS"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNN_4-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRNOAI-3EeKON7G2J8RXRQ" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//generatorconfig/PlatformType/WindowsPhone"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRNOAY-3EeKON7G2J8RXRQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xRNN-Y-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xRNN-o-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xRNN-4-3EeKON7G2J8RXRQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_xRNN9Y-3EeKON7G2J8RXRQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="10011046" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="modagile.ecore#//generatorconfig/PlatformType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xRNN9o-3EeKON7G2J8RXRQ" x="395" y="310"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_xRNOAo-3EeKON7G2J8RXRQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_xRNOBY-3EeKON7G2J8RXRQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_xRNOBo-3EeKON7G2J8RXRQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xRNOB4-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xRNOCI-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xRNOCY-3EeKON7G2J8RXRQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xRNOCo-3EeKON7G2J8RXRQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xRNOC4-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xRNODI-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xRNODY-3EeKON7G2J8RXRQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_xRNOA4-3EeKON7G2J8RXRQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="10011046" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//generatorconfig/GeneratorConfigContainer"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xRNOBI-3EeKON7G2J8RXRQ" x="80" y="195"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_xRNODo-3EeKON7G2J8RXRQ" type="1003">
+    <children xmi:type="notation:Node" xmi:id="_xRNOEY-3EeKON7G2J8RXRQ" type="4007"/>
+    <children xmi:type="notation:Node" xmi:id="_xRNOEo-3EeKON7G2J8RXRQ" type="5007">
+      <children xmi:type="notation:Node" xmi:id="_xRW-4I-3EeKON7G2J8RXRQ" type="2007">
+        <element xmi:type="ecore:EStringToStringMapEntry" href="modagile.ecore#//generatorconfig/%http:%2F%2Fwww.eclipse.org%2Femf%2F2002%2FEcore%/@details.0"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRW-4Y-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRW-4o-3EeKON7G2J8RXRQ" type="2007">
+        <element xmi:type="ecore:EStringToStringMapEntry" href="modagile.ecore#//generatorconfig/%http:%2F%2Fwww.eclipse.org%2Femf%2F2002%2FEcore%/@details.1"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRW-44-3EeKON7G2J8RXRQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xRW-5I-3EeKON7G2J8RXRQ" type="2007">
+        <element xmi:type="ecore:EStringToStringMapEntry" href="modagile.ecore#//generatorconfig/%http:%2F%2Fwww.eclipse.org%2Femf%2F2002%2FEcore%/@details.2"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xRW-5Y-3EeKON7G2J8RXRQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xRNOE4-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xRNOFI-3EeKON7G2J8RXRQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xRNOFY-3EeKON7G2J8RXRQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_xRNOD4-3EeKON7G2J8RXRQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10" fillColor="14668776" lineColor="4210752"/>
+    <element xmi:type="ecore:EAnnotation" href="modagile.ecore#//generatorconfig/%http:%2F%2Fwww.eclipse.org%2Femf%2F2002%2FEcore%"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xRNOEI-3EeKON7G2J8RXRQ" x="650" y="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_xO-ZQY-3EeKON7G2J8RXRQ"/>
+  <element xmi:type="ecore:EPackage" href="modagile.ecore#//generatorconfig"/>
+  <edges xmi:type="notation:Edge" xmi:id="_xRW-5o-3EeKON7G2J8RXRQ" type="3002" source="_xRNOAo-3EeKON7G2J8RXRQ" target="_xRNN4I-3EeKON7G2J8RXRQ">
+    <children xmi:type="notation:Node" xmi:id="_xRW-6o-3EeKON7G2J8RXRQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xRW-64-3EeKON7G2J8RXRQ" x="-38" y="-32"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xRW-7I-3EeKON7G2J8RXRQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xRW-7Y-3EeKON7G2J8RXRQ" x="-5" y="-17"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_xRW-54-3EeKON7G2J8RXRQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xRW-6I-3EeKON7G2J8RXRQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//generatorconfig/GeneratorConfigContainer/generatorConfigs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xRW-6Y-3EeKON7G2J8RXRQ" points="[86, 20, -213, -50]$[199, 20, -100, -50]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xR80wI-3EeKON7G2J8RXRQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xR80wY-3EeKON7G2J8RXRQ" id="(0.4975369458128079,1.0)"/>
+  </edges>
+</notation:Diagram>

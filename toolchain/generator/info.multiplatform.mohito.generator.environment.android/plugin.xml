@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         name="Android"
+         point="info.multiplatform.mohito.generator">
+      <projectInitializer
+            generatorClass="info.multiplatform.mohito.generator.environment.java.MohitoModelGenerator"
+            projectInitializationClass="info.multiplatform.mohito.generator.environment.android.AndroidProjectInitializer">
+      </projectInitializer>
+   </extension>
+   <extension
+         name="Android and CAS Extensions"
+         point="info.multiplatform.mohito.generator">
+      <projectInitializer
+            generatorClass="info.multiplatform.mohito.generator.environment.java.MohitoModelGenerator"
+            projectInitializationClass="info.multiplatform.mohito.generator.environment.android.CasOpenProjectInitializer">
+      </projectInitializer>
+   </extension>
+</plugin>

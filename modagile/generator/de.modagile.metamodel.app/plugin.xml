@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.modagile-mobile.de/metamodel"
+            class="de.modagile.metamodel.app.AppPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.modagile-mobile.de/metamodel#ui"
+            class="de.modagile.metamodel.app.ui.UIPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.modagile-mobile.de/metamodel#platform"
+            class="de.modagile.metamodel.app.platform.PlatformPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.modagile-mobile.de/metamodel#domain"
+            class="de.modagile.metamodel.app.domain.DomainPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.modagile-mobile.de/metamodel#event"
+            class="de.modagile.metamodel.app.event.EventPackage"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.modagile-mobile.de/metamodel#generatorconfig"
+            class="de.modagile.metamodel.app.generatorconfig.GeneratorconfigPackage"/>
+   </extension>
+
+</plugin>

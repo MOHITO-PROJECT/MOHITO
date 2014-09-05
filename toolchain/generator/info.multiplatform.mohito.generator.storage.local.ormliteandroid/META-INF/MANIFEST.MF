@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Local Storage Access using OrmLite and the built-in Android Database
+Bundle-SymbolicName: info.multiplatform.mohito.generator.storage.local.ormliteandroid;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: FZI Forschungszentrum Informatik
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: info.multiplatform.mohito.generator;bundle-version="1.0.0";visibility:=reexport
+Export-Package: info.multiplatform.mohito.generator.storage.local.ormliteandroid

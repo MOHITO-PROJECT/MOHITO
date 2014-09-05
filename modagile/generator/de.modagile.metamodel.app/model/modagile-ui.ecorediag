@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_42HBsNlfEeCcAOKG1hcWvA" type="EcoreTools" name="modagile.ecorediag" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_42KsENlfEeCcAOKG1hcWvA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_42L6MNlfEeCcAOKG1hcWvA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_42MhQNlfEeCcAOKG1hcWvA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_42MhQdlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_42MhQtlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_42MhQ9lfEeCcAOKG1hcWvA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_42NIUNlfEeCcAOKG1hcWvA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_42NIUdlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_42NIUtlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_42NIU9lfEeCcAOKG1hcWvA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_42KsEdlfEeCcAOKG1hcWvA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Screen"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42KsEtlfEeCcAOKG1hcWvA" x="370" y="255" width="173" height="108"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_42PkkNlfEeCcAOKG1hcWvA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_42QysNlfEeCcAOKG1hcWvA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_42QysdlfEeCcAOKG1hcWvA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_42QystlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_42Qys9lfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_42QytNlfEeCcAOKG1hcWvA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_42RZwNlfEeCcAOKG1hcWvA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_42RZwdlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_42RZwtlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_42RZw9lfEeCcAOKG1hcWvA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_42PkkdlfEeCcAOKG1hcWvA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Control"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42PkktlfEeCcAOKG1hcWvA" x="1020" y="190"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_42RZxNlfEeCcAOKG1hcWvA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_42SA0NlfEeCcAOKG1hcWvA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_42SA0dlfEeCcAOKG1hcWvA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_kM3t8IftEeK3a8ut9LJ-FQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Flow/returnsResult"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_kM3t8YftEeK3a8ut9LJ-FQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_42SA0tlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_42SA09lfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_42SA1NlfEeCcAOKG1hcWvA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_42TO8NlfEeCcAOKG1hcWvA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_42TO8dlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_42TO8tlfEeCcAOKG1hcWvA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_42TO89lfEeCcAOKG1hcWvA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_42RZxdlfEeCcAOKG1hcWvA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Flow"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_42RZxtlfEeCcAOKG1hcWvA" x="625" y="380"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1liEodrGEeCsesPBIp6Kaw" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_1lj50NrGEeCsesPBIp6Kaw" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_1lkg4NrGEeCsesPBIp6Kaw" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_IdgOQIo6EeK0d9ZUnH1KOA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Input/inputType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IdgOQYo6EeK0d9ZUnH1KOA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1lkg4drGEeCsesPBIp6Kaw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1lkg4trGEeCsesPBIp6Kaw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1lkg49rGEeCsesPBIp6Kaw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1llH8NrGEeCsesPBIp6Kaw" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1llH8drGEeCsesPBIp6Kaw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1llH8trGEeCsesPBIp6Kaw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1llH89rGEeCsesPBIp6Kaw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_1liEotrGEeCsesPBIp6Kaw" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1liEo9rGEeCsesPBIp6Kaw" x="985" y="5"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_kx5nANrUEeCkuafvT_DJhA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_kx-fgNrUEeCkuafvT_DJhA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_kx-fgdrUEeCkuafvT_DJhA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_kx-fgtrUEeCkuafvT_DJhA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_kx-fg9rUEeCkuafvT_DJhA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_kx-fhNrUEeCkuafvT_DJhA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_kx_GkNrUEeCkuafvT_DJhA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_kx_GkdrUEeCkuafvT_DJhA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_kx_GktrUEeCkuafvT_DJhA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_kx_Gk9rUEeCkuafvT_DJhA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_kx5nAdrUEeCkuafvT_DJhA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Label"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kx5nAtrUEeCkuafvT_DJhA" x="985" y="55"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_AOYRcd0eEeCmc7HFgb6yyw" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_AOatsN0eEeCmc7HFgb6yyw" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_AObUwN0eEeCmc7HFgb6yyw" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_ELHz0N0eEeCmc7HFgb6yyw" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Button/caption"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ELHz0d0eEeCmc7HFgb6yyw"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AObUwd0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AObUwt0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AObUw90eEeCmc7HFgb6yyw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_AOb70N0eEeCmc7HFgb6yyw" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_AOb70d0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_AOb70t0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_AOb7090eEeCmc7HFgb6yyw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_AOYRct0eEeCmc7HFgb6yyw" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Button"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AOYRc90eEeCmc7HFgb6yyw" x="1010" y="260"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_N9fs0N0eEeCmc7HFgb6yyw" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_N9g68N0eEeCmc7HFgb6yyw" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_N9g68d0eEeCmc7HFgb6yyw" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_N9g68t0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_N9g6890eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_N9g69N0eEeCmc7HFgb6yyw"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_N9hiAN0eEeCmc7HFgb6yyw" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_N9hiAd0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_N9hiAt0eEeCmc7HFgb6yyw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_N9hiA90eEeCmc7HFgb6yyw"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_N9fs0d0eEeCmc7HFgb6yyw" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/StoryBoard"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N9fs0t0eEeCmc7HFgb6yyw" x="385" y="435"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ZlCqUOXHEeC2essN0qgVBQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ZlEfgOXHEeC2essN0qgVBQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ZlFGkOXHEeC2essN0qgVBQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZlFGkeXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZlFGkuXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlFGk-XHEeC2essN0qgVBQ"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_qlresMzjEeGbaJxlItO9tA" value="0.3626373626373626"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ZlFGlOXHEeC2essN0qgVBQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ZlFGleXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ZlFGluXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ZlFGl-XHEeC2essN0qgVBQ"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_qltT4MzjEeGbaJxlItO9tA" value="0.45054945054945056"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ZlCqUeXHEeC2essN0qgVBQ" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/DisplayElement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZlCqUuXHEeC2essN0qgVBQ" x="500" y="-45" width="193" height="93"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_tGc0cOXHEeC2essN0qgVBQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_tGeCkOXHEeC2essN0qgVBQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_tGepoOXHEeC2essN0qgVBQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tGepoeXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tGepouXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tGepo-XHEeC2essN0qgVBQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_tGfQsOXHEeC2essN0qgVBQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_tGfQseXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_tGfQsuXHEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_tGfQs-XHEeC2essN0qgVBQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_tGc0ceXHEeC2essN0qgVBQ" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/DynamicList"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tGc0cuXHEeC2essN0qgVBQ" x="880" y="280"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_xQ9ksOXVEeC2essN0qgVBQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xQ_Z4OXVEeC2essN0qgVBQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xQ_Z4eXVEeC2essN0qgVBQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_xQ-LwOXVEeC2essN0qgVBQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_xQ-y0OXVEeC2essN0qgVBQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xQ-y0eXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xQ-y0uXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xQ-y0-XVEeC2essN0qgVBQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xQ-y1OXVEeC2essN0qgVBQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_xQ-y1eXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_xQ-y1uXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_xQ-y1-XVEeC2essN0qgVBQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_xQ9kseXVEeC2essN0qgVBQ" fontColor="4210752" fontName="Arial" fillColor="12632256" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//event/ButtonClickEvent"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xQ9ksuXVEeC2essN0qgVBQ" x="1030" y="450"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_1rZvsOXVEeC2essN0qgVBQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1rdaEOXVEeC2essN0qgVBQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1rdaEeXVEeC2essN0qgVBQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_1ra90OXVEeC2essN0qgVBQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_1ra90eXVEeC2essN0qgVBQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1ra90uXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1rbk4OXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1rbk4eXVEeC2essN0qgVBQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1rbk4uXVEeC2essN0qgVBQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_1rbk4-XVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_1rbk5OXVEeC2essN0qgVBQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_1rcL8OXVEeC2essN0qgVBQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_1rZvseXVEeC2essN0qgVBQ" fontColor="4210752" fontName="Arial" fillColor="12632256" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//event/Event"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1rZvsuXVEeC2essN0qgVBQ" x="765" y="480"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_i7-IMBHfEeGNT_IplADNgg" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_i7-IMxHfEeGNT_IplADNgg" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_i7-INBHfEeGNT_IplADNgg" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_USC08BHgEeGNT_IplADNgg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Datepicker/maxDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_USC08RHgEeGNT_IplADNgg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_sgGe8BHhEeGNT_IplADNgg" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Datepicker/minDate"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sgGe8RHhEeGNT_IplADNgg"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_i7-INRHfEeGNT_IplADNgg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_i7-INhHfEeGNT_IplADNgg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_i7-INxHfEeGNT_IplADNgg"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_i7-IOBHfEeGNT_IplADNgg" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_i7-IORHfEeGNT_IplADNgg"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_i7-IOhHfEeGNT_IplADNgg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_i7-IOxHfEeGNT_IplADNgg"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_i7-IMRHfEeGNT_IplADNgg" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Datepicker"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i7-IMhHfEeGNT_IplADNgg" x="985" y="100"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_N1yF0CZdEeGxucSTnsSxUQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_N1ys4CZdEeGxucSTnsSxUQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_N1ys4SZdEeGxucSTnsSxUQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_O6Js4CZdEeGxucSTnsSxUQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Image/width"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_O6Js4SZdEeGxucSTnsSxUQ"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Qve20CZdEeGxucSTnsSxUQ" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/Image/height"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Qve20SZdEeGxucSTnsSxUQ"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_N1ys4iZdEeGxucSTnsSxUQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_N1zT8CZdEeGxucSTnsSxUQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_N1zT8SZdEeGxucSTnsSxUQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_N1zT8iZdEeGxucSTnsSxUQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_N1zT8yZdEeGxucSTnsSxUQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_N1zT9CZdEeGxucSTnsSxUQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_N1zT9SZdEeGxucSTnsSxUQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_N1yF0SZdEeGxucSTnsSxUQ" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/Image"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N1yF0iZdEeGxucSTnsSxUQ" x="985" y="-120"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ShwfUGH-EeGAEbOS5isIqQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ShwfU2H-EeGAEbOS5isIqQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ShwfVGH-EeGAEbOS5isIqQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ShwfVWH-EeGAEbOS5isIqQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ShwfVmH-EeGAEbOS5isIqQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ShwfV2H-EeGAEbOS5isIqQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ShwfWGH-EeGAEbOS5isIqQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ShwfWWH-EeGAEbOS5isIqQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ShwfWmH-EeGAEbOS5isIqQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ShwfW2H-EeGAEbOS5isIqQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ShwfUWH-EeGAEbOS5isIqQ" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/LocationPicker"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ShwfUmH-EeGAEbOS5isIqQ" x="855" y="-160"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_6KWjkGh0EeGUZLzgeZnNCQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_6KWjk2h0EeGUZLzgeZnNCQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_6KWjlGh0EeGUZLzgeZnNCQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_6KWjlWh0EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6KWjlmh0EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6KWjl2h0EeGUZLzgeZnNCQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_6KWjmGh0EeGUZLzgeZnNCQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_6KWjmWh0EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6KWjmmh0EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6KWjm2h0EeGUZLzgeZnNCQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_6KWjkWh0EeGUZLzgeZnNCQ" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/CompositeDisplayElementType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6KWjkmh0EeGUZLzgeZnNCQ" x="640" y="155" width="213"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_me-PAGh9EeGUZLzgeZnNCQ" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_me-PA2h9EeGUZLzgeZnNCQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_me-PBGh9EeGUZLzgeZnNCQ" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_33u64Mz0EeGbaJxlItO9tA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/CompositeDisplayElement/displayType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_33u64cz0EeGbaJxlItO9tA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_me-PBWh9EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_me-PBmh9EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_me-PB2h9EeGUZLzgeZnNCQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_me-PCGh9EeGUZLzgeZnNCQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_me-PCWh9EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_me-PCmh9EeGUZLzgeZnNCQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_me-PC2h9EeGUZLzgeZnNCQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_me-PAWh9EeGUZLzgeZnNCQ" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/CompositeDisplayElement"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_me-PAmh9EeGUZLzgeZnNCQ" x="340" y="105"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_bldKIHdXEeGJl4Mn0j4e6w" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_blltAHdXEeGJl4Mn0j4e6w" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_blrMkHdXEeGJl4Mn0j4e6w" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_blrMkXdXEeGJl4Mn0j4e6w"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_blrMkndXEeGJl4Mn0j4e6w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_blrMk3dXEeGJl4Mn0j4e6w"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_blrzoHdXEeGJl4Mn0j4e6w" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_blrzoXdXEeGJl4Mn0j4e6w"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_blrzondXEeGJl4Mn0j4e6w"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_blrzo3dXEeGJl4Mn0j4e6w"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_bldKIXdXEeGJl4Mn0j4e6w" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/CheckBox"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bldKIndXEeGJl4Mn0j4e6w" x="985" y="-45"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_UNMLIJgcEeGT2uVutTzrig" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_UNV8IJgcEeGT2uVutTzrig" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_UNbbsJgcEeGT2uVutTzrig" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_YVDYYJgcEeGT2uVutTzrig" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/ImageButton/width"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YVDYYZgcEeGT2uVutTzrig"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_dcsnoJgcEeGT2uVutTzrig" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/ImageButton/height"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dcsnoZgcEeGT2uVutTzrig"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_UNbbsZgcEeGT2uVutTzrig"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_UNbbspgcEeGT2uVutTzrig"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_UNbbs5gcEeGT2uVutTzrig"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_UNbbtJgcEeGT2uVutTzrig" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_UNbbtZgcEeGT2uVutTzrig"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_UNbbtpgcEeGT2uVutTzrig"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_UNbbt5gcEeGT2uVutTzrig"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_UNMLIZgcEeGT2uVutTzrig" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/ImageButton"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UNMyMJgcEeGT2uVutTzrig" x="1165" y="255" width="118" height="68"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ctjBgMz0EeGbaJxlItO9tA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ctjokMz0EeGbaJxlItO9tA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ctjokcz0EeGbaJxlItO9tA" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ctjoksz0EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ctjok8z0EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ctjolMz0EeGbaJxlItO9tA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ctkPoMz0EeGbaJxlItO9tA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ctkPocz0EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ctkPosz0EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ctkPo8z0EeGbaJxlItO9tA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ctjBgcz0EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/MenuBar"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ctjBgsz0EeGbaJxlItO9tA" x="200" y="300"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_y5hUcMz0EeGbaJxlItO9tA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_y5rsgMz0EeGbaJxlItO9tA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_y5sTkMz0EeGbaJxlItO9tA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_7uWnIMz0EeGbaJxlItO9tA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//ui/DisplayType/SEPARATE"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7uWnIcz0EeGbaJxlItO9tA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_1ZLNwMz0EeGbaJxlItO9tA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//ui/DisplayType/PANORAMIC"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1ZLNwcz0EeGbaJxlItO9tA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_y5sTkcz0EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_y5sTksz0EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_y5sTk8z0EeGbaJxlItO9tA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_y5hUccz0EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="modagile.ecore#//ui/DisplayType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y5hUcsz0EeGbaJxlItO9tA" x="45" y="-130" width="133" height="98"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_ax1JcMz5EeGbaJxlItO9tA" type="1001">
+    <children xmi:type="notation:Node" xmi:id="_ax1wgMz5EeGbaJxlItO9tA" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_ax1wgcz5EeGbaJxlItO9tA" type="5001">
+      <children xmi:type="notation:Node" xmi:id="_trXbQMz5EeGbaJxlItO9tA" type="2001">
+        <element xmi:type="ecore:EAttribute" href="modagile.ecore#//ui/FragmentNavigation/navigationType"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_trXbQcz5EeGbaJxlItO9tA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ax2XkMz5EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ax2Xkcz5EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ax2Xksz5EeGbaJxlItO9tA"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_ax2Xk8z5EeGbaJxlItO9tA" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_ax2XlMz5EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_ax2Xlcz5EeGbaJxlItO9tA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_ax2Xlsz5EeGbaJxlItO9tA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_ax1Jccz5EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//ui/FragmentNavigation"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ax1Jcsz5EeGbaJxlItO9tA" x="125" y="10"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_OKyvPIfzEeK3a8ut9LJ-FQ" type="1001">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OK8gIIfzEeK3a8ut9LJ-FQ" source="Shortcut">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OK8gIYfzEeK3a8ut9LJ-FQ" key="modelID" value="EcoreTools"/>
+    </eAnnotations>
+    <children xmi:type="notation:Node" xmi:id="_OKyvP4fzEeK3a8ut9LJ-FQ" type="4001"/>
+    <children xmi:type="notation:Node" xmi:id="_OKyvQIfzEeK3a8ut9LJ-FQ" type="5001">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_OKyvQYfzEeK3a8ut9LJ-FQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OKyvQofzEeK3a8ut9LJ-FQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OKyvQ4fzEeK3a8ut9LJ-FQ"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_OKyvRIfzEeK3a8ut9LJ-FQ" type="5002">
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_OKyvRYfzEeK3a8ut9LJ-FQ"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_OKyvRofzEeK3a8ut9LJ-FQ"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_OKyvR4fzEeK3a8ut9LJ-FQ"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_OKyvPYfzEeK3a8ut9LJ-FQ" fontColor="4210752" fontName="Arial" fillColor="12632256" lineColor="0"/>
+    <element xmi:type="ecore:EClass" href="modagile.ecore#//event/ListClickEvent"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OKyvPofzEeK3a8ut9LJ-FQ" x="875" y="400" width="123"/>
+  </children>
+  <children xmi:type="notation:Node" xmi:id="_rzkZYIo5EeK0d9ZUnH1KOA" type="1005">
+    <children xmi:type="notation:Node" xmi:id="_rzkZY4o5EeK0d9ZUnH1KOA" type="4010"/>
+    <children xmi:type="notation:Node" xmi:id="_rzkZZIo5EeK0d9ZUnH1KOA" type="5008">
+      <children xmi:type="notation:Node" xmi:id="_tXtFoIo5EeK0d9ZUnH1KOA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//ui/InputType/Text"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_tXtFoYo5EeK0d9ZUnH1KOA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_xrGNcIo5EeK0d9ZUnH1KOA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//ui/InputType/Numerics"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_xrGNcYo5EeK0d9ZUnH1KOA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="__a_E4Io5EeK0d9ZUnH1KOA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//ui/InputType/WebAddress"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__a_E4Yo5EeK0d9ZUnH1KOA"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_G22ZgIo6EeK0d9ZUnH1KOA" type="2006">
+        <element xmi:type="ecore:EEnumLiteral" href="modagile.ecore#//ui/InputType/Custom"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_G22ZgYo6EeK0d9ZUnH1KOA"/>
+      </children>
+      <styles xmi:type="notation:DrawerStyle" xmi:id="_rzkZZYo5EeK0d9ZUnH1KOA"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_rzkZZoo5EeK0d9ZUnH1KOA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_rzkZZ4o5EeK0d9ZUnH1KOA"/>
+    </children>
+    <styles xmi:type="notation:ShapeStyle" xmi:id="_rzkZYYo5EeK0d9ZUnH1KOA" fontColor="4210752" fontName="Arial Narrow" fontHeight="10" fillColor="13761016" lineColor="8421504"/>
+    <element xmi:type="ecore:EEnum" href="modagile.ecore#//ui/InputType"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rzkZYoo5EeK0d9ZUnH1KOA" x="1155" y="-70"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_42HBsdlfEeCcAOKG1hcWvA"/>
+  <element xmi:type="ecore:EPackage" href="modagile.ecore#//ui"/>
+  <edges xmi:type="notation:Edge" xmi:id="_9MEVUNlfEeCcAOKG1hcWvA" type="3002" source="_42RZxNlfEeCcAOKG1hcWvA" target="_42KsENlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_9MFjcNlfEeCcAOKG1hcWvA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9MFjcdlfEeCcAOKG1hcWvA" x="7" y="-8"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_9MGKgNlfEeCcAOKG1hcWvA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9MGKgdlfEeCcAOKG1hcWvA" x="-23" y="-8"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_9MEVUdlfEeCcAOKG1hcWvA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_9MEVUtlfEeCcAOKG1hcWvA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Flow/from"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9MEVU9lfEeCcAOKG1hcWvA" points="[13, 0, 223, 94]$[13, -125, 223, -31]$[-134, -125, 76, -31]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9MelANlfEeCcAOKG1hcWvA" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9MelAdlfEeCcAOKG1hcWvA" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_-TYisNlfEeCcAOKG1hcWvA" type="3002" source="_42RZxNlfEeCcAOKG1hcWvA" target="_42KsENlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_-TZJwNlfEeCcAOKG1hcWvA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-TZJwdlfEeCcAOKG1hcWvA" x="2" y="-8"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_-TZw0NlfEeCcAOKG1hcWvA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-TZw0dlfEeCcAOKG1hcWvA" x="-21" y="-8"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_-TYisdlfEeCcAOKG1hcWvA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-TYistlfEeCcAOKG1hcWvA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Flow/to"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-TYis9lfEeCcAOKG1hcWvA" points="[-18, -1, 213, 110]$[-18, -106, 213, 5]$[-145, -106, 86, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Tf3cNlfEeCcAOKG1hcWvA" id="(0.6176470588235294,0.047619047619047616)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Tf3cdlfEeCcAOKG1hcWvA" id="(0.43137254901960786,0.7619047619047619)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_kyOXINrUEeCkuafvT_DJhA" type="3002" source="_42KsENlfEeCcAOKG1hcWvA" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <children xmi:type="notation:Node" xmi:id="_kyO-MNrUEeCkuafvT_DJhA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kyO-MdrUEeCkuafvT_DJhA" x="-10" y="45"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_kyO-MtrUEeCkuafvT_DJhA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kyO-M9rUEeCkuafvT_DJhA" x="9" y="24"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_kyOXIdrUEeCkuafvT_DJhA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kyOXItrUEeCkuafvT_DJhA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Screen/displayElements"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kyOXI9rUEeCkuafvT_DJhA" points="[3, -15, -15, 232]$[3, -224, -15, 23]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w5DHgC8KEeKefMSyHmYybg" id="(0.8901734104046243,0.14814814814814814)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_w5DHgS8KEeKefMSyHmYybg" id="(0.21243523316062177,0.7526881720430108)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_CfXcoN0eEeCmc7HFgb6yyw" type="3003" source="_AOYRcd0eEeCmc7HFgb6yyw" target="_42PkkNlfEeCcAOKG1hcWvA">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_CfXcod0eEeCmc7HFgb6yyw" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CfXcot0eEeCmc7HFgb6yyw" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CfXco90eEeCmc7HFgb6yyw" points="[-4, 0, 10, 30]$[-4, -30, 10, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Cfaf8N0eEeCmc7HFgb6yyw" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xRnsAOXVEeC2essN0qgVBQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Ph_lcN0eEeCmc7HFgb6yyw" type="3002" source="_N9fs0N0eEeCmc7HFgb6yyw" target="_42RZxNlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_PiAzkN0eEeCmc7HFgb6yyw" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PiAzkd0eEeCmc7HFgb6yyw" x="-9" y="-22"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_PiBaoN0eEeCmc7HFgb6yyw" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PiBaod0eEeCmc7HFgb6yyw" x="-3" y="-14"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Ph_lcd0eEeCmc7HFgb6yyw" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ph_lct0eEeCmc7HFgb6yyw" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/StoryBoard/flows"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ph_lc90eEeCmc7HFgb6yyw" points="[82, -31, -281, 67]$[135, -31, -228, 67]$[135, -98, -228, 0]$[200, -98, -163, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Ip70szzEeGbaJxlItO9tA" id="(0.3333333333333333,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-Ip708zzEeGbaJxlItO9tA" id="(0.9803921568627451,0.42857142857142855)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_RUQ0UN0eEeCmc7HFgb6yyw" type="3002" source="_42RZxNlfEeCcAOKG1hcWvA" target="_N9fs0N0eEeCmc7HFgb6yyw">
+    <children xmi:type="notation:Node" xmi:id="_RUSCcN0eEeCmc7HFgb6yyw" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RUSCcd0eEeCmc7HFgb6yyw" x="-19" y="22"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_RUSCct0eEeCmc7HFgb6yyw" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RUSCc90eEeCmc7HFgb6yyw" x="5" y="8"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_RUQ0Ud0eEeCmc7HFgb6yyw" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RUQ0Ut0eEeCmc7HFgb6yyw" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Flow/storyBoard"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RUQ0U90eEeCmc7HFgb6yyw" points="[-163, 0, 200, -98]$[-228, 0, 135, -98]$[-228, 67, 135, -31]$[-281, 67, 82, -31]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B7Ro0of0EeK3a8ut9LJ-FQ" id="(0.9803921568627451,0.42857142857142855)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B7Ro04f0EeK3a8ut9LJ-FQ" id="(0.3333333333333333,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_UwwwYN0eEeCmc7HFgb6yyw" type="3002" source="_N9fs0N0eEeCmc7HFgb6yyw" target="_42KsENlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_UwxXcN0eEeCmc7HFgb6yyw" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UwxXcd0eEeCmc7HFgb6yyw" x="7" y="-23"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Uwx-gN0eEeCmc7HFgb6yyw" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Uwx-gd0eEeCmc7HFgb6yyw" x="-8" y="-11"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_UwwwYd0eEeCmc7HFgb6yyw" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UwwwYt0eEeCmc7HFgb6yyw" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/StoryBoard/screens"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UwwwY90eEeCmc7HFgb6yyw" points="[0, 0, -62, 90]$[0, -74, -62, 16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-IpUwszzEeGbaJxlItO9tA" id="(0.3333333333333333,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-IpUw8zzEeGbaJxlItO9tA" id="(0.6862745098039216,0.8571428571428571)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_WWpJEN0eEeCmc7HFgb6yyw" type="3002" source="_42KsENlfEeCcAOKG1hcWvA" target="_N9fs0N0eEeCmc7HFgb6yyw">
+    <children xmi:type="notation:Node" xmi:id="_WWqXMN0eEeCmc7HFgb6yyw" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WWqXMd0eEeCmc7HFgb6yyw" x="-13" y="33"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_WWqXMt0eEeCmc7HFgb6yyw" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WWqXM90eEeCmc7HFgb6yyw" x="2" y="16"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_WWpJEd0eEeCmc7HFgb6yyw" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WWpJEt0eEeCmc7HFgb6yyw" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Screen/storyBoard"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WWpJE90eEeCmc7HFgb6yyw" points="[-62, 16, 0, -74]$[-62, 90, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmP10ofzEeK3a8ut9LJ-FQ" id="(0.6862745098039216,0.8571428571428571)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmP104fzEeK3a8ut9LJ-FQ" id="(0.3333333333333333,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_ocg04OXHEeC2essN0qgVBQ" type="3003" source="_kx5nANrUEeCkuafvT_DJhA" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_ocg04eXHEeC2essN0qgVBQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ocg04uXHEeC2essN0qgVBQ" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocg04-XHEeC2essN0qgVBQ" points="[-17, 3, 333, 87]$[-67, 3, 283, 87]$[-67, -87, 283, -3]$[-311, -87, 39, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ociqEOXHEeC2essN0qgVBQ" id="(0.17307692307692307,0.17647058823529413)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ociqEeXHEeC2essN0qgVBQ" id="(0.7962962962962963,0.2558139534883721)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_wA5zYOXHEeC2essN0qgVBQ" type="3003" source="_tGc0cOXHEeC2essN0qgVBQ" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_wA5zYeXHEeC2essN0qgVBQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wA5zYuXHEeC2essN0qgVBQ" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wA5zY-XHEeC2essN0qgVBQ" points="[5, 0, 265, 234]$[5, -305, 265, -71]$[-239, -305, 21, -71]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wA7okOXHEeC2essN0qgVBQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hGUOkC8KEeKefMSyHmYybg" id="(0.8911917098445595,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_xRJK4OXVEeC2essN0qgVBQ" type="3002" source="_xQ9ksOXVEeC2essN0qgVBQ" target="_AOYRcd0eEeCmc7HFgb6yyw">
+    <children xmi:type="notation:Node" xmi:id="_xRJx8OXVEeC2essN0qgVBQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xRJx8eXVEeC2essN0qgVBQ" x="11" y="24"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_xRJx8uXVEeC2essN0qgVBQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xRJx8-XVEeC2essN0qgVBQ" x="-4" y="14"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_xRJK4eXVEeC2essN0qgVBQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xRJK4uXVEeC2essN0qgVBQ" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//event/ButtonClickEvent/button"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xRJK4-XVEeC2essN0qgVBQ" points="[-1, 0, 16, 143]$[-1, -143, 16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xRoTEOXVEeC2essN0qgVBQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xRoTEeXVEeC2essN0qgVBQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_1rpAQOXVEeC2essN0qgVBQ" type="3002" source="_42RZxNlfEeCcAOKG1hcWvA" target="_1rZvsOXVEeC2essN0qgVBQ">
+    <children xmi:type="notation:Node" xmi:id="_1rpnUOXVEeC2essN0qgVBQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1rpnUeXVEeC2essN0qgVBQ" x="-3" y="-22"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_1rpnUuXVEeC2essN0qgVBQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1rpnU-XVEeC2essN0qgVBQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_1rpAQeXVEeC2essN0qgVBQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1rpAQuXVEeC2essN0qgVBQ" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Flow/events"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1rpAQ-XVEeC2essN0qgVBQ" points="[0, 0, -107, -53]$[0, 73, -107, 20]$[57, 73, -50, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wIs_EofzEeK3a8ut9LJ-FQ" id="(0.49710982658959535,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wIs_E4fzEeK3a8ut9LJ-FQ" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_AIKCcOXWEeC2essN0qgVBQ" type="3003" source="_xQ9ksOXVEeC2essN0qgVBQ" target="_1rZvsOXVEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_AIKCceXWEeC2essN0qgVBQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AIKCcuXWEeC2essN0qgVBQ" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AIKCc-XWEeC2essN0qgVBQ" points="[1, 58, 228, -25]$[1, 65, 228, -18]$[-177, 65, 50, -18]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AITMYOXWEeC2essN0qgVBQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AITzcOXWEeC2essN0qgVBQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_iJ6ZIBHfEeGNT_IplADNgg" type="3003" source="_1liEodrGEeCsesPBIp6Kaw" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_iJ6ZIRHfEeGNT_IplADNgg" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iJ6ZIhHfEeGNT_IplADNgg" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iJ6ZIxHfEeGNT_IplADNgg" points="[-39, 17, 330, 41]$[-89, 17, 280, 41]$[-89, -38, 280, -14]$[-333, -38, 36, -14]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKDjEBHfEeGNT_IplADNgg" id="(0.39215686274509803,0.21428571428571427)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iKDjERHfEeGNT_IplADNgg" id="(0.8166666666666667,0.38095238095238093)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_LVDW4BIDEeGrdNnetKDj8Q" type="3003" source="_42PkkNlfEeCcAOKG1hcWvA" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_LVD98BIDEeGrdNnetKDj8Q" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LVD98RIDEeGrdNnetKDj8Q" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LVD98hIDEeGrdNnetKDj8Q" points="[-12, -9, 520, 195]$[-97, -9, 435, 195]$[-97, -232, 435, -28]$[-341, -232, 191, -28]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LVHoUBIDEeGrdNnetKDj8Q" id="(0.12745098039215685,0.4418604651162791)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_yAaZoHKIEeGz-eyjhTN39Q" id="(0.0,0.5348837209302325)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_RwavYCZdEeGxucSTnsSxUQ" type="3003" source="_N1yF0CZdEeGxucSTnsSxUQ" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_RwavYSZdEeGxucSTnsSxUQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RwavYiZdEeGxucSTnsSxUQ" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RwavYyZdEeGxucSTnsSxUQ" points="[-50, -4, 390, -93]$[-100, -4, 340, -93]$[-100, 64, 340, -25]$[-344, 64, 96, -25]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_UTU3kGh1EeGUZLzgeZnNCQ" type="3002" source="_6KWjkGh0EeGUZLzgeZnNCQ" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <children xmi:type="notation:Node" xmi:id="_UTU3lGh1EeGUZLzgeZnNCQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UTU3lWh1EeGUZLzgeZnNCQ" x="-83" y="18"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_UTU3lmh1EeGUZLzgeZnNCQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UTU3l2h1EeGUZLzgeZnNCQ" x="11" y="19"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_UTU3kWh1EeGUZLzgeZnNCQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UTU3kmh1EeGUZLzgeZnNCQ" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/CompositeDisplayElementType/containedDisplayElements"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UTU3k2h1EeGUZLzgeZnNCQ" points="[-25, 0, 200, 109]$[-25, -120, 200, -11]$[-129, -120, 96, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NqEAoofzEeK3a8ut9LJ-FQ" id="(0.8544600938967136,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NqEAo4fzEeK3a8ut9LJ-FQ" id="(0.49740932642487046,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_pFwEAGh9EeGUZLzgeZnNCQ" type="3002" source="_me-PAGh9EeGUZLzgeZnNCQ" target="_6KWjkGh0EeGUZLzgeZnNCQ">
+    <children xmi:type="notation:Node" xmi:id="_pFwEBGh9EeGUZLzgeZnNCQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pFwEBWh9EeGUZLzgeZnNCQ" x="15" y="18"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_pFwEBmh9EeGUZLzgeZnNCQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pFwEB2h9EeGUZLzgeZnNCQ" x="35" y="16"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_pFwEAWh9EeGUZLzgeZnNCQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pFwEAmh9EeGUZLzgeZnNCQ" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/CompositeDisplayElement/type"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pFwEA2h9EeGUZLzgeZnNCQ" points="[84, 2, -305, -43]$[311, 2, -78, -43]$[311, 27, -78, -18]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pFwECGh9EeGUZLzgeZnNCQ" id="(0.8235294117647058,0.46511627906976744)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_6feI4Gh9EeGUZLzgeZnNCQ" type="3003" source="_me-PAGh9EeGUZLzgeZnNCQ" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_6feI4Wh9EeGUZLzgeZnNCQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6feI4mh9EeGUZLzgeZnNCQ" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6feI42h9EeGUZLzgeZnNCQ" points="[-9, -24, -175, 60]$[-9, -80, -175, 4]$[71, -80, -95, 4]"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_eDerwHdXEeGJl4Mn0j4e6w" type="3003" source="_bldKIHdXEeGJl4Mn0j4e6w" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_eDerwXdXEeGJl4Mn0j4e6w" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eDerwndXEeGJl4Mn0j4e6w" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eDerw3dXEeGJl4Mn0j4e6w" points="[-8, 20, 337, -49]$[-302, 20, 43, -49]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eDgg8HdXEeGJl4Mn0j4e6w" id="(0.08823529411764706,0.023255813953488372)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eDgg8XdXEeGJl4Mn0j4e6w" id="(0.7777777777777778,0.7674418604651163)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Xt7UIJBfEeGQaOHT_jE5rg" type="3002" source="_1rZvsOXVEeC2essN0qgVBQ" target="_42RZxNlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_Xt77M5BfEeGQaOHT_jE5rg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Xt77NJBfEeGQaOHT_jE5rg" x="-17" y="-13"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Xt77NZBfEeGQaOHT_jE5rg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Xt77NpBfEeGQaOHT_jE5rg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Xt77MJBfEeGQaOHT_jE5rg" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Xt77MZBfEeGQaOHT_jE5rg" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//event/Event/triggers"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xt77MpBfEeGQaOHT_jE5rg" points="[-50, 20, 57, 73]$[-107, 20, 0, 73]$[-107, -53, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OLYlCofzEeK3a8ut9LJ-FQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OLYlC4fzEeK3a8ut9LJ-FQ" id="(0.49710982658959535,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_wv7uwJTuEeGmM-oA2qxTxA" type="3002" source="_N9fs0N0eEeCmc7HFgb6yyw" target="_42KsENlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_wv8V0JTuEeGmM-oA2qxTxA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wv8V0ZTuEeGmM-oA2qxTxA" x="-32" y="16"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_wv8V0pTuEeGmM-oA2qxTxA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wv8V05TuEeGmM-oA2qxTxA" x="-39" y="14"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_wv7uwZTuEeGmM-oA2qxTxA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wv7uwpTuEeGmM-oA2qxTxA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/StoryBoard/startScreen"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wv7uw5TuEeGmM-oA2qxTxA" points="[3, -7, -57, 168]$[3, -81, -57, 94]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wv9j8JTuEeGmM-oA2qxTxA" id="(0.7156862745098039,0.11627906976744186)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wv9j8ZTuEeGmM-oA2qxTxA" id="(0.9509803921568627,0.11627906976744186)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_lGIeMJgcEeGT2uVutTzrig" type="3003" source="_UNMLIJgcEeGT2uVutTzrig" target="_AOYRcd0eEeCmc7HFgb6yyw">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_lGIeMZgcEeGT2uVutTzrig" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lGIeMpgcEeGT2uVutTzrig" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lGIeM5gcEeGT2uVutTzrig" points="[-71, 14, 88, -4]$[-97, 14, 62, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lGKTYJgcEeGT2uVutTzrig" id="(0.6203703703703703,0.1746031746031746)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_d4JMYMz0EeGbaJxlItO9tA" type="3002" source="_42KsENlfEeCcAOKG1hcWvA" target="_ctjBgMz0EeGbaJxlItO9tA">
+    <children xmi:type="notation:Node" xmi:id="_d4JzcMz0EeGbaJxlItO9tA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_d4Jzccz0EeGbaJxlItO9tA" x="10" y="-31"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_d4Jzcsz0EeGbaJxlItO9tA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_d4Jzc8z0EeGbaJxlItO9tA" x="-5" y="-21"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_d4JMYcz0EeGbaJxlItO9tA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_d4JMYsz0EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Screen/menuBar"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d4JMY8z0EeGbaJxlItO9tA" points="[-33, 16, 120, -3]$[-103, 16, 50, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ckfk8of0EeK3a8ut9LJ-FQ" id="(0.19653179190751446,0.46296296296296297)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ckfk84f0EeK3a8ut9LJ-FQ" id="(0.5,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_iS6ukMz0EeGbaJxlItO9tA" type="3002" source="_ctjBgMz0EeGbaJxlItO9tA" target="_ZlCqUOXHEeC2essN0qgVBQ">
+    <children xmi:type="notation:Node" xmi:id="_iS6ulMz0EeGbaJxlItO9tA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS6ulcz0EeGbaJxlItO9tA" x="66" y="-32"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_iS7VoMz0EeGbaJxlItO9tA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS7Vocz0EeGbaJxlItO9tA" x="89" y="-17"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_iS6ukcz0EeGbaJxlItO9tA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iS6uksz0EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/MenuBar/menuBarElements"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iS6uk8z0EeGbaJxlItO9tA" points="[-37, 14, -334, 354]$[-157, 14, -454, 354]$[-157, -310, -454, 30]$[263, -310, -34, 30]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iS9x4Mz0EeGbaJxlItO9tA" id="(0.37254901960784315,0.13953488372093023)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iS9x4cz0EeGbaJxlItO9tA" id="(0.18134715025906736,0.12903225806451613)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_c27NsMz5EeGbaJxlItO9tA" type="3002" source="_ax1JcMz5EeGbaJxlItO9tA" target="_me-PAGh9EeGUZLzgeZnNCQ">
+    <children xmi:type="notation:Node" xmi:id="_c27NtMz5EeGbaJxlItO9tA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c27Ntcz5EeGbaJxlItO9tA" x="-22" y="-12"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_c270wMz5EeGbaJxlItO9tA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c270wcz5EeGbaJxlItO9tA" x="13" y="-12"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_c27Nscz5EeGbaJxlItO9tA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_c27Nssz5EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/FragmentNavigation/from"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c27Ns8z5EeGbaJxlItO9tA" points="[-29, 16, -92, -57]$[-29, 89, -92, 16]$[48, 89, -15, 16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c29C4Mz5EeGbaJxlItO9tA" id="(0.9071428571428571,0.6744186046511628)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c29C4cz5EeGbaJxlItO9tA" id="(0.09392265193370165,0.19607843137254902)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_fKcvgMz5EeGbaJxlItO9tA" type="3002" source="_ax1JcMz5EeGbaJxlItO9tA" target="_me-PAGh9EeGUZLzgeZnNCQ">
+    <children xmi:type="notation:Node" xmi:id="_fKdWkMz5EeGbaJxlItO9tA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fKdWkcz5EeGbaJxlItO9tA" x="-14" y="-11"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_fKdWksz5EeGbaJxlItO9tA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fKdWk8z5EeGbaJxlItO9tA" x="1" y="-9"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_fKcvgcz5EeGbaJxlItO9tA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fKcvgsz5EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/FragmentNavigation/to"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fKcvg8z5EeGbaJxlItO9tA" points="[28, 18, -81, -76]$[104, 18, -5, -76]$[104, 88, -5, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fKeksMz5EeGbaJxlItO9tA" id="(0.85,0.16279069767441862)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fKekscz5EeGbaJxlItO9tA" id="(0.30386740331491713,0.13725490196078433)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_oZKh0Mz5EeGbaJxlItO9tA" type="3002" source="_42KsENlfEeCcAOKG1hcWvA" target="_ax1JcMz5EeGbaJxlItO9tA">
+    <children xmi:type="notation:Node" xmi:id="_oZLI4cz5EeGbaJxlItO9tA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oZLI4sz5EeGbaJxlItO9tA" x="27" y="-9"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_oZLI48z5EeGbaJxlItO9tA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oZLI5Mz5EeGbaJxlItO9tA" x="47" y="19"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_oZKh0cz5EeGbaJxlItO9tA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oZKh0sz5EeGbaJxlItO9tA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Screen/fragmentNavigations"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oZLI4Mz5EeGbaJxlItO9tA" points="[1, -53, 289, 212]$[1, -88, 289, 177]$[-245, -88, 43, 177]$[-245, -249, 43, 16]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oZNlIcz5EeGbaJxlItO9tA" id="(0.21428571428571427,0.6744186046511628)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_KbR5ICdLEeKz0tftQ3BcVg" type="3002" source="_ZlCqUOXHEeC2essN0qgVBQ" target="_42KsENlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_KbbDECdLEeKz0tftQ3BcVg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KbbDESdLEeKz0tftQ3BcVg" x="-1" y="26"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_KbbDEidLEeKz0tftQ3BcVg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KbbDEydLEeKz0tftQ3BcVg" x="14" y="20"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_KbR5ISdLEeKz0tftQ3BcVg" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KbR5IidLEeKz0tftQ3BcVg" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/DisplayElement/screen"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KbR5IydLEeKz0tftQ3BcVg" points="[-15, 23, 3, -224]$[-15, 232, 3, -15]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbk0ECdLEeKz0tftQ3BcVg" id="(0.21243523316062177,0.7526881720430108)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kbk0ESdLEeKz0tftQ3BcVg" id="(0.8901734104046243,0.14814814814814814)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_gItZcCdMEeKz0tftQ3BcVg" type="3002" source="_ZlCqUOXHEeC2essN0qgVBQ" target="_6KWjkGh0EeGUZLzgeZnNCQ">
+    <children xmi:type="notation:Node" xmi:id="_gItZdCdMEeKz0tftQ3BcVg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gItZdSdMEeKz0tftQ3BcVg" x="11" y="-54"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_gItZdidMEeKz0tftQ3BcVg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gItZdydMEeKz0tftQ3BcVg" x="31" y="-25"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_gItZcSdMEeKz0tftQ3BcVg" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gItZcidMEeKz0tftQ3BcVg" fontColor="4210752" fontName="Segoe UI" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/DisplayElement/compositeType"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gItZcydMEeKz0tftQ3BcVg" points="[96, -11, -129, -120]$[200, -11, -25, -120]$[200, 109, -25, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__BA3IofzEeK3a8ut9LJ-FQ" id="(0.49740932642487046,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__BA3I4fzEeK3a8ut9LJ-FQ" id="(0.8544600938967136,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_g9fCsC8KEeKefMSyHmYybg" type="3002" source="_tGc0cOXHEeC2essN0qgVBQ" target="_6KWjkGh0EeGUZLzgeZnNCQ">
+    <children xmi:type="notation:Node" xmi:id="_g9gQ0C8KEeKefMSyHmYybg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_g9gQ0S8KEeKefMSyHmYybg" x="10" y="-61"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_g9gQ0i8KEeKefMSyHmYybg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_g9gQ0y8KEeKefMSyHmYybg" x="-5" y="-26"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_g9fCsS8KEeKefMSyHmYybg" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_g9fCsi8KEeKefMSyHmYybg" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/DynamicList/displayedElements"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_g9fCsy8KEeKefMSyHmYybg" points="[-24, 20, 70, 74]$[-94, 20, 0, 74]$[-94, -54, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hGSZYi8KEeKefMSyHmYybg" id="(0.24509803921568626,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hGTAcC8KEeKefMSyHmYybg" id="(0.49765258215962443,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_VPmdYDAJEeKefMSyHmYybg" type="3002" source="_ctjBgMz0EeGbaJxlItO9tA" target="_42KsENlfEeCcAOKG1hcWvA">
+    <children xmi:type="notation:Node" xmi:id="_VPnEcDAJEeKefMSyHmYybg" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VPnEcTAJEeKefMSyHmYybg" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_VPnEcjAJEeKefMSyHmYybg" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VPnEczAJEeKefMSyHmYybg" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_VPmdYTAJEeKefMSyHmYybg" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VPmdYjAJEeKefMSyHmYybg" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/MenuBar/screen"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VPmdYzAJEeKefMSyHmYybg" points="[50, -3, -103, 16]$[120, -3, -33, 16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X6TwITAJEeKefMSyHmYybg" id="(0.5,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X6TwIjAJEeKefMSyHmYybg" id="(0.19653179190751446,0.46296296296296297)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OLPbHIfzEeK3a8ut9LJ-FQ" type="3003" source="_OKyvPIfzEeK3a8ut9LJ-FQ" target="_1rZvsOXVEeC2essN0qgVBQ">
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_OLPbHYfzEeK3a8ut9LJ-FQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OLPbHofzEeK3a8ut9LJ-FQ" fontName="Arial"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OLPbH4fzEeK3a8ut9LJ-FQ" points="[-35, 55, 115, -97]$[-35, 110, 115, -42]$[-100, 110, 50, -42]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OLYlAIfzEeK3a8ut9LJ-FQ" id="(0.7450980392156863,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OLYlAYfzEeK3a8ut9LJ-FQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Qlq2IIfzEeK3a8ut9LJ-FQ" type="3002" source="_OKyvPIfzEeK3a8ut9LJ-FQ" target="_tGc0cOXHEeC2essN0qgVBQ">
+    <children xmi:type="notation:Node" xmi:id="_Qlq2JIfzEeK3a8ut9LJ-FQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Qlq2JYfzEeK3a8ut9LJ-FQ" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Qlq2JofzEeK3a8ut9LJ-FQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Qlq2J4fzEeK3a8ut9LJ-FQ" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Qlq2IYfzEeK3a8ut9LJ-FQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Qlq2IofzEeK3a8ut9LJ-FQ" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//event/ListClickEvent/list"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qlq2I4fzEeK3a8ut9LJ-FQ" points="[-5, 0, 0, 80]$[-5, -80, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ql9xFIfzEeK3a8ut9LJ-FQ" id="(0.5,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ql9xFYfzEeK3a8ut9LJ-FQ" id="(0.5,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_Qlq2KIfzEeK3a8ut9LJ-FQ" type="3002" source="_tGc0cOXHEeC2essN0qgVBQ" target="_OKyvPIfzEeK3a8ut9LJ-FQ">
+    <children xmi:type="notation:Node" xmi:id="_Qlq2LIfzEeK3a8ut9LJ-FQ" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Qlq2LYfzEeK3a8ut9LJ-FQ" x="-10" y="-40"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_Qlq2LofzEeK3a8ut9LJ-FQ" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Qlq2L4fzEeK3a8ut9LJ-FQ" x="-5" y="11"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_Qlq2KYfzEeK3a8ut9LJ-FQ" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Qlq2KofzEeK3a8ut9LJ-FQ" fontColor="4210752" fontName="Arial Narrow" fontHeight="10"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/DynamicList/listClickEvent"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Qlq2K4fzEeK3a8ut9LJ-FQ" points="[0, 0, -5, -80]$[0, 80, -5, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zQDxkofzEeK3a8ut9LJ-FQ" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zQDxk4fzEeK3a8ut9LJ-FQ" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_jE8nIIpfEeK0d9ZUnH1KOA" type="3002" source="_42KsENlfEeCcAOKG1hcWvA" target="_me-PAGh9EeGUZLzgeZnNCQ">
+    <children xmi:type="notation:Node" xmi:id="_jE8nJIpfEeK0d9ZUnH1KOA" type="4011">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jE8nJYpfEeK0d9ZUnH1KOA" x="-10" y="-10"/>
+    </children>
+    <children xmi:type="notation:Node" xmi:id="_jE8nJopfEeK0d9ZUnH1KOA" type="4012">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jE8nJ4pfEeK0d9ZUnH1KOA" x="10" y="10"/>
+    </children>
+    <styles xmi:type="notation:ConnectorStyle" xmi:id="_jE8nIYpfEeK0d9ZUnH1KOA" routing="Rectilinear" lineColor="4210752"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jE8nIopfEeK0d9ZUnH1KOA" fontColor="4210752" fontName="Arial"/>
+    <element xmi:type="ecore:EReference" href="modagile.ecore#//ui/Screen/startFragment"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jE8nI4pfEeK0d9ZUnH1KOA" points="[0, -5, 13, 142]$[-11, -155, 2, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jE8nKIpfEeK0d9ZUnH1KOA" id="(0.6705202312138728,0.05555555555555555)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jE8nKYpfEeK0d9ZUnH1KOA" id="(0.7823529411764706,0.1836734693877551)"/>
+  </edges>
+</notation:Diagram>

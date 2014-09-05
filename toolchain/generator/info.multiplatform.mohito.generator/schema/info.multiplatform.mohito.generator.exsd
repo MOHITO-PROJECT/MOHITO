@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="info.multiplatform.mohito.generator" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appinfo>
+         <meta.schema plugin="info.multiplatform.mohito.generator" id="info.multiplatform.mohito.generator" name="MOHITO Generator Registration"/>
+      </appinfo>
+      <documentation>
+         This extension point is reponsible for the registration of available generators within the MOHITO development environment.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appinfo>
+            <meta.element />
+         </appinfo>
+      </annotation>
+      <complexType>
+         <choice>
+            <element ref="localGenerator"/>
+            <element ref="remoteGenerator"/>
+            <element ref="projectInitializer"/>
+         </choice>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string" use="required">
+            <annotation>
+               <documentation>
+                  Name representing the target of the storage generator, e.g. Android or desktop.
+               </documentation>
+               <appinfo>
+                  <meta.attribute translatable="true"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="localGenerator">
+      <annotation>
+         <documentation>
+            Definition of a generator for local storage access.
+         </documentation>
+      </annotation>
+      <complexType>
+         <choice minOccurs="0" maxOccurs="1">
+            <sequence minOccurs="1" maxOccurs="unbounded">
+               <element ref="plainJavaDependency"/>
+            </sequence>
+            <sequence minOccurs="1" maxOccurs="unbounded">
+               <element ref="eclipseDependency"/>
+            </sequence>
+         </choice>
+         <attribute name="transformationClass" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":info.multiplatform.mohito.generator.IStorageGenerator"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="remoteGenerator">
+      <annotation>
+         <documentation>
+            Definition of a generator for remote storage access.
+         </documentation>
+      </annotation>
+      <complexType>
+         <choice minOccurs="0" maxOccurs="1">
+            <sequence minOccurs="1" maxOccurs="unbounded">
+               <element ref="plainJavaDependency"/>
+            </sequence>
+            <sequence minOccurs="1" maxOccurs="unbounded">
+               <element ref="eclipseDependency"/>
+            </sequence>
+         </choice>
+         <attribute name="transformationClass" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":info.multiplatform.mohito.generator.IStorageGenerator"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="accessRole" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+            <simpleType>
+               <restriction base="string">
+                  <enumeration value="Client">
+                  </enumeration>
+                  <enumeration value="Server">
+                  </enumeration>
+               </restriction>
+            </simpleType>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="projectInitializer">
+      <annotation>
+         <documentation>
+            Implementation for creating and initializing an eclipse project, which will then receive the generated code. Allows to set according project natures and add MOHITO libraries to the project.
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="projectInitializationClass" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn="info.multiplatform.mohito.generator.AbstractProjectInitializer:"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+         <attribute name="generatorClass" type="string" use="required">
+            <annotation>
+               <documentation>
+                  The implementation used to start the generation of the environment-specific representation of the domain model.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="java" basedOn=":org.eclipse.xtext.generator.IGenerator"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="plainJavaDependency">
+      <annotation>
+         <documentation>
+            Definition of plain Java dependencies, which get associated with the generated code. Must not rely on OSGi or other framework functionality. Lists the JAR files required for the execution.
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="jarFile" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A single required JAR file.
+               </documentation>
+               <appinfo>
+                  <meta.attribute kind="resource"/>
+               </appinfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="eclipseDependency">
+      <annotation>
+         <documentation>
+            Definition of eclipse plugin dependencies, which get associated with the generated code. Can rely on the eclipse framework an plugin handling capacility.
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="pluginName" type="string">
+            <annotation>
+               <documentation>
+                  Name of the plugin.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="since"/>
+      </appinfo>
+      <documentation>
+         [Enter the first release in which this extension point appears.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="examples"/>
+      </appinfo>
+      <documentation>
+         [Enter extension point usage example here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="apiinfo"/>
+      </appinfo>
+      <documentation>
+         [Enter API information here.]
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appinfo>
+         <meta.section type="implementation"/>
+      </appinfo>
+      <documentation>
+         [Enter information about supplied implementation of this extension point.]
+      </documentation>
+   </annotation>
+
+
+</schema>

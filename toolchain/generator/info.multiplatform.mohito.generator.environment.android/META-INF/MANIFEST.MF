@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Generator Templates for the Target Environment Android
+Bundle-SymbolicName: info.multiplatform.mohito.generator.environment.android;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: FZI Forschungszentrum Informatik
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: info.multiplatform.mohito.generator;bundle-version="1.0.0";visibility:=reexport,
+ de.modagile.generator.android;bundle-version="0.3.0";visibility:=reexport,
+ info.multiplatform.generator.android;bundle-version="0.3.0";visibility:=reexport
+Export-Package: info.multiplatform.mohito.generator.environment.android

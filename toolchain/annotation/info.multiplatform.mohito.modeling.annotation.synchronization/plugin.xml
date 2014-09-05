@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views.properties.tabbed.propertyTabs">
+      <propertyTabs
+            contributorId="org.eclipse.emf.ecoretools.diagram">
+         <propertyTab
+               afterTab="info.multiplatform.mohito.modeling.annotation.tab"
+               category="domain"
+               id="info.multiplatform.mohito.modeling.annotation.synchronization.tab"
+               image="platform:/plugin/info.multiplatform.mohito.modeling.annotation/icons/MOHITO.png"
+               indented="true"
+               label="Synchronization">
+         </propertyTab>
+      </propertyTabs>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views.properties.tabbed.propertySections">
+      <propertySections
+            contributorId="org.eclipse.emf.ecoretools.diagram">
+         <propertySection
+               class="info.multiplatform.mohito.modeling.annotation.synchronization.SynchronizationAnnotationPropertiesSection"
+               id="info.multiplatform.mohito.modeling.annotation.synchronization.propertySection"
+               tab="info.multiplatform.mohito.modeling.annotation.synchronization.tab">
+            <input
+                  type="org.eclipse.emf.ecore.EModelElement">
+            </input>
+         </propertySection>
+      </propertySections>
+   </extension>
+
+</plugin>

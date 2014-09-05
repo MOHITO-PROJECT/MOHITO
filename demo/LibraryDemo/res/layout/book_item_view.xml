@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bookItemIdContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="5dp"
+    android:minWidth="5dp"
+    android:paddingBottom="0dp"
+    android:paddingTop="0dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="horizontal"
+    android:longClickable="true">
+         
+	    
+    <ImageView
+        android:id="@+id/bookImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:cropToPadding="false"
+        android:onClick="onClick"
+        android:src="@drawable/bookcover" />
+    
+    <ImageView
+        android:id="@+id/bookImageViewBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="-50dp"
+        android:layout_marginLeft="-50dp"
+        android:layout_below="@+id/bookImageView"
+        android:src="@drawable/bookshelf_board" />
+
+ 	<TextView android:id="@+id/bookNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:textIsSelectable="false"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="90dp"
+        android:maxWidth="80dp"/>
+
+
+       
+</RelativeLayout>

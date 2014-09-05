@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mohito demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MohitoDemo</string>
+    <string name="mohito">Demonstrator for the MOHITO Software Stack</string>
+    <string name="selectCategory">Please select a category of books: </string>
+    <string name="searchView">Search for a book..</string>
+    <string name="title_activity_book_shelf">Book Shelf</string>
+    <string name="categoryAll">All</string>
+    <string name="categoryFiction">Fiction</string>
+    <string name="categoryPoetry">Poetry</string>
+    <string name="categoryScience">Science</string>
+    <string name="libraryManager">Library Manager</string>
+    <string name="search">Search</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="edit_search">Search in library &#8230;</string>
+    <string name="manageBooks">Manage Books</string>
+    <string name="addBooks">Add Books</string>
+    <string name="title">Title:</string>
+    <string name="author">Author:</string>
+    <string name="idNumber">ID-Number:</string>
+    <string name="pages">Pages:</string>
+    <string name="loanOut">Check out</string>
+    <string name="Return">Return Book</string>
+    <string name="title_activity_book">BookActivity</string>
+    <string name="title_activity_book_return">BookReturnActivity</string>
+    <string name="bookReturn">You have returned your book! Thank you!</string>
+    <string name="title_activity_book_loan_out">BookCheckOutActivity</string>
+    <string name="bookLoanOut">You have checked out a book. Please return it within 14 days. Thank you!</string>
+    <string name="title_activity_book_read">BookReadActivity</string>
+    <string name="title_activity_library_manager">LibraryManager</string>
+	<string name="sycWithRemote">Sync</string>
+	<string name="bookCover">Book Cover</string>
+	<string name="dummyText">dummy</string>
+	
+</resources>

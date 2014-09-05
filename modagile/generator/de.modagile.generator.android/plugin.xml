@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="de.modagile.generator.android.popupMenu"
+         name="App Popup Menu"
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            id="de.modagile.generator.android.projectGeneration"
+            nameFilter="*.app"
+            objectClass="org.eclipse.core.resources.IResource">
+         <action
+               class="de.modagile.generator.android.action.GenerateAndroidCodeAction"
+               enablesFor="1"
+               icon="res/drawable-ldpi/icon.png"
+               id="de.modagile.generator.android.generateAppProject"
+               label="Generate Android App"
+               tooltip="Generate an Android project from App Model">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>

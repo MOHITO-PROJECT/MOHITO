@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="info.multiplatform.mohito.generator" name="MOHITO Generator Registration" schema="schema/info.multiplatform.mohito.generator.exsd"/>
+   <extension
+         name="none"
+         point="info.multiplatform.mohito.generator">
+      <localGenerator
+            transformationClass="info.multiplatform.mohito.generator.storage.NoStorageGenerator">
+      </localGenerator>
+   </extension>
+   <extension
+         name="none"
+         point="info.multiplatform.mohito.generator">
+      <remoteGenerator
+            accessRole="Client"
+            transformationClass="info.multiplatform.mohito.generator.storage.NoStorageGenerator">
+      </remoteGenerator>
+   </extension>
+   <extension
+         name="none"
+         point="info.multiplatform.mohito.generator">
+      <remoteGenerator
+            accessRole="Server"
+            transformationClass="info.multiplatform.mohito.generator.storage.NoStorageGenerator">
+      </remoteGenerator>
+   </extension>
+   <extension
+         point="org.eclipse.ui.exportWizards">
+      <category
+            id="info.multiplatform.mohito.generator.category"
+            name="MOHITO Development">
+      </category>
+      <wizard
+            category="info.multiplatform.mohito.generator.category"
+            class="info.multiplatform.mohito.generator.export.GenerateMohitoImplementationWizard"
+            icon="platform:/plugin/info.multiplatform.mohito.modeling.annotation/icons/MOHITO.png"
+            id="info.multiplatform.mohito.generator.wizard"
+            name="Platform-dependent code">
+         <selection
+               class="org.eclipse.core.resources.IResource"
+               name="*.ecore">
+         </selection>
+      </wizard>
+   </extension>
+
+</plugin>

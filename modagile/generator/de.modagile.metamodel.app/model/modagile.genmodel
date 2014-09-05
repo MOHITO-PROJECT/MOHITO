@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/de.modagile.metamodel.app/src-gen" editDirectory="/de.modagile.metamodel.app.edit/src-gen"
+    editorDirectory="/de.modagile.metamodel.app.editor/src-gen" modelPluginID="de.modagile.metamodel.app"
+    modelName="Modagile" testsDirectory="/de.modagile.metamodel.app.tests/src-gen"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>modagile.ecore</foreignModel>
+  <genPackages prefix="App" basePackage="de.modagile.metamodel" disposableProviderFactory="true"
+      ecorePackage="modagile.ecore#/">
+    <genClasses image="false" ecoreClass="modagile.ecore#//FeaturedElement"/>
+    <genClasses image="false" ecoreClass="modagile.ecore#//Entity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//Entity/name"/>
+    </genClasses>
+    <genClasses ecoreClass="modagile.ecore#//MobileApp">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//MobileApp/storyBoard"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//MobileApp/bindingRepository"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//MobileApp/appDatabaseVersion"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//MobileApp/appVersion"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//MobileApp/compositeDisplayElementTypeRepository"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference modagile.ecore#//MobileApp/domainPackage"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//MobileApp/generatorConfigContainer"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//MobileApp/eventContainer"/>
+    </genClasses>
+    <genClasses ecoreClass="modagile.ecore#//CompositeDisplayElementTypeRepository">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//CompositeDisplayElementTypeRepository/compositeDisplayElementTypes"/>
+    </genClasses>
+    <nestedGenPackages prefix="UI" basePackage="de.modagile.metamodel.app" disposableProviderFactory="true"
+        ecorePackage="modagile.ecore#//ui">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="modagile.ecore#//ui/DisplayType">
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/DisplayType/SEPARATE"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/DisplayType/PANORAMIC"/>
+      </genEnums>
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="modagile.ecore#//ui/InputType">
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/InputType/Text"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/InputType/Numerics"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/InputType/Mail"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/InputType/WebAddress"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//ui/InputType/Custom"/>
+      </genEnums>
+      <genClasses ecoreClass="modagile.ecore#//ui/Screen">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/Screen/displayElements"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference modagile.ecore#//ui/Screen/storyBoard"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/Screen/menuBar"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/Screen/fragmentNavigations"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/Screen/startFragment"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="modagile.ecore#//ui/Control"/>
+      <genClasses ecoreClass="modagile.ecore#//ui/Flow">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/Flow/from"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/Flow/to"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference modagile.ecore#//ui/Flow/storyBoard"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/Flow/events"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/Flow/flowContext"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Flow/returnsResult"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/Input">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Input/inputType"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/Label"/>
+      <genClasses ecoreClass="modagile.ecore#//ui/Button">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Button/caption"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/Button/buttonClickEvents"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/StoryBoard">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/StoryBoard/flows"/>
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/StoryBoard/screens"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/StoryBoard/startScreen"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/StoryBoard/resolutionX"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/StoryBoard/resolutionY"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="modagile.ecore#//ui/DisplayElement">
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference modagile.ecore#//ui/DisplayElement/screen"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference modagile.ecore#//ui/DisplayElement/compositeType"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/DynamicList">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/DynamicList/displayedElements"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/DynamicList/listClickEvents"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/InputContext">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/InputContext/contextType"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/Datepicker">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Datepicker/maxDate"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Datepicker/minDate"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="modagile.ecore#//ui/Enableable"/>
+      <genClasses image="false" ecoreClass="modagile.ecore#//ui/TextContaining">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/TextContaining/text"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/Image">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Image/width"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/Image/height"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/LocationPicker"/>
+      <genClasses ecoreClass="modagile.ecore#//ui/CompositeDisplayElementType">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/CompositeDisplayElementType/containedDisplayElements"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/CompositeDisplayElement">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/CompositeDisplayElement/type"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/CompositeDisplayElement/displayType"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/CheckBox"/>
+      <genClasses ecoreClass="modagile.ecore#//ui/ImageButton">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/ImageButton/width"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/ImageButton/height"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/MenuBar">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//ui/MenuBar/menuBarElements"/>
+        <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference modagile.ecore#//ui/MenuBar/screen"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/FragmentNavigation">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/FragmentNavigation/from"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//ui/FragmentNavigation/to"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//ui/FragmentNavigation/navigationType"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//ui/Picker"/>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Domain" basePackage="de.modagile.metamodel.app" disposableProviderFactory="true"
+        ecorePackage="modagile.ecore#//domain">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="modagile.ecore#//domain/UpdateStrategy">
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//domain/UpdateStrategy/read"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//domain/UpdateStrategy/write"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//domain/UpdateStrategy/writeThrough"/>
+      </genEnums>
+      <genClasses image="false" ecoreClass="modagile.ecore#//domain/DomainBinding">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//domain/DomainBinding/updateStrategy"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//domain/ComplexBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/ComplexBinding/domainEntity"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/ComplexBinding/uiElement"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/ComplexBinding/innerBindings"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//domain/BindingRepository">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//domain/BindingRepository/bindings"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//domain/StringBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/StringBinding/uiElement"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//domain/BooleanBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/BooleanBinding/checkBox"/>
+      </genClasses>
+      <genClasses image="false" ecoreClass="modagile.ecore#//domain/PrimitiveBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/PrimitiveBinding/attribute"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//domain/ListBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/ListBinding/listElement"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/ListBinding/domainReference"/>
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/ListBinding/innerBindings"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//domain/SelectionBinding">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//domain/SelectionBinding/domainReference"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Event" basePackage="de.modagile.metamodel.app" disposableProviderFactory="true"
+        ecorePackage="modagile.ecore#//event">
+      <genClasses image="false" ecoreClass="modagile.ecore#//event/Event">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//event/Event/triggers"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//event/ButtonClickEvent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//event/ButtonClickEvent/button"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//event/EventContainer">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//event/EventContainer/events"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//event/ListClickEvent">
+        <genFeatures notify="false" createChild="false" propertySortChoices="true"
+            ecoreFeature="ecore:EReference modagile.ecore#//event/ListClickEvent/list"/>
+      </genClasses>
+    </nestedGenPackages>
+    <nestedGenPackages prefix="Generatorconfig" basePackage="de.modagile.metamodel.app"
+        disposableProviderFactory="true" ecorePackage="modagile.ecore#//generatorconfig">
+      <genEnums typeSafeEnumCompatible="false" ecoreEnum="modagile.ecore#//generatorconfig/PlatformType">
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//generatorconfig/PlatformType/Android"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//generatorconfig/PlatformType/iOS"/>
+        <genEnumLiterals ecoreEnumLiteral="modagile.ecore#//generatorconfig/PlatformType/WindowsPhone"/>
+      </genEnums>
+      <genClasses ecoreClass="modagile.ecore#//generatorconfig/GeneratorConfig">
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//generatorconfig/GeneratorConfig/projectName"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//generatorconfig/GeneratorConfig/namespace"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//generatorconfig/GeneratorConfig/projectPath"/>
+        <genFeatures createChild="false" ecoreFeature="ecore:EAttribute modagile.ecore#//generatorconfig/GeneratorConfig/targetPlatform"/>
+      </genClasses>
+      <genClasses ecoreClass="modagile.ecore#//generatorconfig/GeneratorConfigContainer">
+        <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference modagile.ecore#//generatorconfig/GeneratorConfigContainer/generatorConfigs"/>
+      </genClasses>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>

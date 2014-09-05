@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/info/multiplatform/mohito/generator/environment/java/AnnotationUtils.xtend=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/DomainModelTemplate.xtend=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/JavaUtils.xtend=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/MohitoJavaFolderConstants.xtend=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/MohitoModelGenerator.xtend=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/PackageInfo.xtend=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/StringArray.java=UTF-8
+encoding//src/info/multiplatform/mohito/generator/environment/java/UtilitiesTemplate.xtend=UTF-8

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Database_annotation
+Bundle-SymbolicName: info.multiplatform.mohito.modeling.annotation.database;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: info.multiplatform.mohito.modeling.annotation;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Vendor: FZI Forschungszentrum Informatik
+Export-Package: info.multiplatform.mohito.modeling.annotation.database
+Bundle-Activator: info.multiplatform.mohito.modeling.annotation.database.Activator
+Bundle-ActivationPolicy: lazy
