@@ -10,4 +10,4 @@ In MOHITO, code is generated against the MOHITO runtime framework. Apart from ac
 
 Further information can be found on the MOHITO website: http://www.mohito-projekt.de/.
 
-The MOHITO project was funded by the German Federal Ministry of Research and Technology (Förderkennzeichen 01 IS 12 012 A).
+The MOHITO project was funded by the German Federal Ministry of Research and Technology (Förderkennzeichen 01 IS 12 012 A-C).
