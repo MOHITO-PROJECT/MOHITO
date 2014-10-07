@@ -8,6 +8,6 @@ The strategy of MOHITO is to replace the manual coding of platform-specific data
 
 In MOHITO, code is generated against the MOHITO runtime framework. Apart from access to local data (e.g. a local database) and remote data sources (e.g. via the REST interface of an application server), the framework provides support for offline access to server data on the client side, caching of server data on the client side, and synchronization mechanisms between client and server out of the box.
 
-Further information can be found on the MOHITO website: http://www.mohito-projekt.de/.
+Further information can be found on the MOHITO website: http://www.mohito-projekt.de/. Installation instructions are available under the following link: http://www.mohito-projekt.de/downloads/MOHITO-Installationsanleitung.pdf.
 
 The MOHITO project was funded by the German Federal Ministry of Research and Technology (Förderkennzeichen 01 IS 12 012 A-C).
